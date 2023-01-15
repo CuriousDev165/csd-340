@@ -1,0 +1,66 @@
+/*
+Micah Smith
+1/15/2023
+Module 3.2 Assignment
+*/
+
+/* CSS for high-level elements in the page */
+html{
+    font-size: 16px;
+}
+body{
+    font-size: 16px;
+}
+
+/* CSS for elements in the page body */
+h1, h2{
+    font-family: 'Oswald', 'Verdana', 'Arial', sans-serif;
+}
+h1{
+    font-size: 3.052em;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    word-spacing: 0.5em;
+    margin: 0;
+}
+h2{
+    font-size: 2.441em;
+    font-weight: 500;
+    text-align: left;
+    word-spacing: 0.2em;
+    margin: 0;
+    padding-top: 15px;
+}
+p{
+    font-family: 'Quattrocento', 'Georgia', "Times New Roman", serif;
+    font-weight: 400;
+    line-height: 1.4em;
+}
+address{
+    font-family: 'Quattrocento', 'Georgia', "Times New Roman", serif;
+    text-align: center;
+}
+a{
+    font-size: 1.25em;
+    font-weight: bold;
+    text-decoration: none;
+    color: #4F3674;
+}
+
+/* CSS for pseudo-classes (please alphabetize for organization) */
+a:hover{
+    text-decoration: underline;
+    color: #D6A800 !important;
+}
+a:visited{
+    color: darkgreen;
+}
+
+/* CSS for classes (please alphabetize for organization) */
+.intro{
+    text-indent: 0.2em;
+}
+.sentence{
+    font-style: italic;
+}
