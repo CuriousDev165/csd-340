@@ -1,0 +1,59 @@
+/*CSS for elements in the page body.*/
+h1{
+    font-family: 'Oswald', 'Verdana', 'Arial', sans-serif;
+    text-align: center;
+}
+h3{
+    font-weight: 500;
+}
+ol,ul{
+    font-weight: 300;
+}
+a{
+    font-family: 'Oswald', 'Verdana', 'Arial', sans-serif;
+    text-decoration: none;
+}
+/*CSS for pseudo-classes (please alphabetize for organization). */
+a:hover{
+    text-decoration: underline;
+}
+/*CSS for id's (please alphabetize for organization).*/
+#back-to-top-link{
+    float: right;
+}
+#block-div{
+    width: 100%;
+    margin-top: 60%;
+    margin-bottom: 20px;
+    float: right;
+}
+/*Use these id's as a pair when inserting two inline divs*/
+#left-div,#right-div{
+    font-family: 'Oswald', 'Verdana', 'Arial', sans-serif;
+    width: 45%;
+}
+/*
+-- NOTE --
+The assignment instructions asked to have some of the following properties applied to ordered and unordered lists.
+However, the result produced a different visual than the final solution pictured: the headers were placed outside of the borders.
+The properties have been relocated here to match the final solution visual with headers inside the borders.
+*/
+#left-div{
+    border: 1px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: red;
+    list-style-position: inside;
+    padding: 10px;
+    float: left;
+}
+#right-div{
+    border: 1px;
+    border-radius: 15px;
+    border-style: dashed;
+    border-color: red;
+    list-style: upper-roman;
+    list-style-position: inside;
+    padding: 10px;
+    float: right;
+}
