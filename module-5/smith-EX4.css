@@ -1,0 +1,58 @@
+/*
+Micah Smith
+1/29/2023
+Module 5.2 Assignment
+*/
+/*CSS for high-level elements in the page.*/
+body{
+    background-color: rgba(247, 112, 24, 20%);
+}
+/*CSS for elements in the page body.*/
+a{
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    font-family: 'Oswald', 'Verdana', 'Arial', sans-serif;
+    color: rgba(185, 63, 8, 1);
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+figcaption{
+    font-size: 0.75em;
+    font-style: italic;
+}
+img{
+    height: 350px;
+    width: 400px;
+}
+h1,h3,figure{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+h1,h3,figcaption{
+    color: rgba(185, 63, 8, 1);
+}
+/*CSS for classes (Please alphabetize for organization).*/
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.grid-item{
+    border-style: solid;
+    border-radius: 15px;
+    border-color: rgba(185, 63, 8, 1);
+    padding: 5px;
+}
+/*CSS for id's (Please alphabetize for organization).*/
+#back-to-top-link{
+    float: right;
+}
+#image-gallery{
+    margin-top: 10%;
+}
+#valid-css-badge{
+    bottom: 5%;
+    left: 5%;
+}
