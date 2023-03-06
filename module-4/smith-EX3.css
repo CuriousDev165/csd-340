@@ -13,7 +13,7 @@ a{
     font-family: 'Oswald', 'Verdana', 'Arial', sans-serif;
     text-decoration: none;
 }
-/*CSS for pseudo-classes (please alphabetize for organization). */
+/*CSS for pseudo-classes (please alphabetize for organization).*/
 a:hover{
     text-decoration: underline;
 }

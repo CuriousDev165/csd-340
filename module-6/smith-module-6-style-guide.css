@@ -1,0 +1,40 @@
+/*CSS for high-level elements in the page.*/
+body{
+    background-color: rgba(000, 000, 100, 1);
+}
+/*CSS for elements in the page body.*/
+h1,h2,h3,p, figcaption{
+    font-family: "Public Sans", sans-serif;
+    color: rgba(160, 180, 0, 1);
+}
+h1{
+    font-weight: 700px;
+}
+h2{
+    font-weight: 500px;
+}
+h3{
+    font-weight: 400px;
+}
+p{
+    font-weight: 100px;
+    text-align: justify;
+}
+img{
+    width: 187px;
+    height: 251px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+figcaption{
+    font-style: italic;
+    text-align: center;
+    margin-top: 10px;
+}
+/*CSS for classes.*/
+#page-header{
+    font-family: "Public Sans";
+    font-weight: 700px;
+    text-align: center;
+}

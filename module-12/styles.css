@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(0, 0, 53);
+}
+p,h1,h2,h3,li,figcaption{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgba(0, 150, 255, 1);
+}
+h1,h2,h3,ul{
+    text-align: center;
+}
+h2{
+    font-style: italic;
+}
+p{
+    font-size: 16pt;
+    text-align: justify;
+}
+ul{
+    list-style-type: none;
+}
+figure{
+    text-align: center;
+}
+figcaption{
+    font-style: italic;
+}
+#hobbies{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.column{
+    border-style: solid;
+    border-color: navy;
+    padding: 10px;
+}
